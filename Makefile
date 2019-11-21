@@ -15,7 +15,7 @@ LDFLAGS=-subsystem:efi_application -nodefaultlib
 SRCS=$(wildcard *.c)
 ASMS=$(wildcard *.s)
 OBJS=$(SRCS:.c=.o) $(ASMS:.s=.o)
-TARGET=main.efi
+TARGET=mp-test.efi
 
 IMG=image
 APP=$(IMG)/$(TARGET)
